@@ -1,0 +1,76 @@
+#titleContainer {
+    text-align: center;
+    font-family: Inter;
+}
+
+#contactContainer {
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+    padding: 1em 2em 2em 2em;
+    justify-content: center;
+}
+
+#mapContainer{
+    border-radius: 10px;
+}
+
+#submitContainer {
+    border-radius: 10px;
+    margin: 0 0 1em 1em;
+    background-color: #FFFFFF;
+    min-width: 10em;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: right;
+    padding: 0.3em;
+}
+
+#contactList {
+    margin: 0 0 1em 1em;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: right;
+}
+
+.title {
+    padding-top: 1em;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+hr.customWhite {
+    background-color: white;
+    width: 20em;
+}
+
+hr.customWhiteSmall {
+    background-color: white;
+    width: 4em;
+}
+
+.yellowText {
+    color: #f3ce40;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.whiteText {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.yellowTextSmall {
+    color: #f3ce40;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.whiteTextSmall {
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}

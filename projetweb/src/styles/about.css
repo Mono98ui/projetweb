@@ -1,0 +1,66 @@
+#aboutContainer {
+    padding: 2em 5em 4em 5em;
+    color: white;
+    font-family: Inter;
+    height: 77vh;
+}
+
+.motto {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+#textContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#historyParagraph {
+    flex-direction: column;
+    padding: 0 11em 2em 6em;
+}
+
+#foundersParagraph {
+    flex-direction: column;
+    padding: 0 6em 2em 6em;
+    flex-grow: 10;
+}
+
+.title {
+    padding-top: 1em;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.secondTitle {
+    padding-top: 2em;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+}
+
+hr.customWhite {
+    background-color: white;
+    width: 15em;
+}
+
+.yellowText {
+    color: #f3ce40;
+    font-weight: 300;
+}
+
+.whiteText {
+    color: white;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }

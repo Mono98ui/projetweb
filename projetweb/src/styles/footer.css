@@ -1,0 +1,77 @@
+/** Disable link highlight and blue underline */
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+/** Disable link highlight and blue underline */
+a {
+  text-decoration: none !important;
+}
+
+hr {
+  width: 7em;
+  color: #123455;
+  background-color: #f3ce40;
+  margin-top: 1em;
+}
+
+/** Footer Component */
+#footer {
+  margin: fill;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em 0 1em 0;
+  font-family: Inter, serif;
+  background-color: #1a284d;
+  box-sizing: border-box;
+}
+
+#footer-motto {
+  text-align: center;
+  flex-grow: 5;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.footerMottoYellow {
+  color: #f3ce40;
+}
+
+.footerMottoWhite {
+  color: white;
+}
+
+.footerCopyright {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+#footer-information {
+  margin-top: 2em;
+  text-align: center;
+  flex-grow: 6;
+  flex-direction: column;
+}
+
+.footerTitleWhite {
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.footerTextWhite {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/** Yellow title font */
+.logoTitleYellow {
+  color: #f3ce40;
+}
+
+/** White title font */
+.logoTitleWhite {
+  color: white;
+}

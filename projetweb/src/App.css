@@ -1,0 +1,90 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+  font-family: Inter;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: Inter;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+/** Disable link highlight and blue underline */
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+/** Disable link highlight and blue underline */
+a {
+  text-decoration: none !important;
+}
+
+hr {
+  width: 7em;
+  color: #123455;
+  background-color: #f3ce40;
+  margin-top: 1em;
+}
+
+#websiteContainer {
+  resize: both;
+  display: flex;
+  flex-direction: column;
+  background-color: #203260;
+  justify-content: flex-start;
+}
+
+/** Header component */
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #1a284d;
+  font-family: Inter;
+  margin-top: auto;
+  justify-content: normal;
+}
+
+.logoPicture {
+  height: 4em;
+  width: 4em;
+  margin: 0 1em 0em 1em;
+}
+
+#headerTitleContainer {
+  display: flex;
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+/** Yellow title font */
+.logoTitleYellow {
+  color: #f3ce40;
+}
+
+/** White title font */
+.logoTitleWhite {
+  color: white;
+}
+
+#profilePictureContainer {
+  margin: 1em;
+}
+
+.profile-picture {
+  height: 2em;
+  width: 2em;
+  margin: 1em;
+}
+
+button {
+  width: 50px;
+}

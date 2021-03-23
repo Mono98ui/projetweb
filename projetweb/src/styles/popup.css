@@ -1,0 +1,16 @@
+.my-alert {
+  display: block;
+  margin-top: 75px;
+  margin-left: 35%;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #f44336;
+  color: white;
+  width: 30%;
+  height: 70px;
+  border-radius: 10px;
+}
+.my-alert.none{
+  display: none;
+}
+.my-alert.success {  display: block; background-color: #4CAF50;}

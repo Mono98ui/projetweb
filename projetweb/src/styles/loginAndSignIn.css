@@ -1,0 +1,47 @@
+#login-pageContainer {
+  font-family: Inter;
+  overflow: hidden;
+}
+
+#login-mainContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+  font-weight: 400;
+}
+
+#login-pageTitle {
+  font-weight: 500;
+  font-size: 3em;
+  position: relative;
+  padding: 2em 1em 1em 5em;
+}
+
+#login-connexionContainer {
+  position: relative;
+  padding: 2em;
+  min-width: 25em;
+  float: left;
+  margin-right: 10em;
+}
+
+#login-connexionTitle {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#login-inscriptionContainer {
+  position: relative;
+  padding: 2em;
+  float: left;
+  min-width: 25em;
+  margin-left: 10em;
+}
+
+#login-inscriptionTitle {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+

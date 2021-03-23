@@ -1,0 +1,54 @@
+[
+  {
+    "_comment": "CPU",
+    "NumberOfCores": "{int}",
+    "NumberOfThreads": "{int}",
+    "CoreClock": "{decimal} GHz",
+    "BoostClock": "{decimal} GHz",
+    "TDP": "{int} W",
+    "Series": "{string}",
+    "Microarchitecture": "{string}",
+    "Lithography": "{string}",
+    "Socket": "{string}"
+  },
+  {
+    "_comment": "GPU",
+    "Provider": "{string}",
+    "_comment": "AMD or NVIDIA",
+    "Series": "{string}",
+    "_comment": "NVIDIA GeForce RTX 20 Series, AMD Radeon RX VEGA Series, etc.",
+    "Chipset": "{string}",
+    "CoreClock": "{decimal} MHz",
+    "BoostClock": "{decimal} MHz",
+    "Memory": "{int} GB",
+    "MemoryType": "{string}",
+    "FrameSync": "{string}",
+    "TDP": "{int} W",
+    "RGB": "{true or false}"
+  },
+  {
+    "_comment": "RAM",
+    "Frequency": "{int} MHz",
+    "CASLatency": "{int}",
+    "Modules": "{string}",
+    "_comment": "e.g. 2 x 8GB",
+    "RGB": "{true or false}"
+  },
+  {
+    "_comment": "MOBO",
+    "Socket": "{string}",
+    "Chipset": "{string}",
+    "FormFactor": "{string}",
+    "MemoryType": "{string}",
+    "WifiSupport": "{true or false}",
+    "RGB": "{true or false}"
+  },
+  {
+    "_comment": "STORAGE",
+    "Type": "{string}",
+    "_comment": "For SSD, mark : 'SSD or NVMe'; For HDD, mark : '{speed} RPM' ",
+    "Capacity": "{string}",
+    "Cache": "{int} MB",
+    "FormFactor": "{string}"
+  }
+]
